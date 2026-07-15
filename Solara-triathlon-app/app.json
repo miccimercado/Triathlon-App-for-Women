@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Solara",
+    "slug": "solara-triathlon",
+    "scheme": "solara",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.solara"
+    },
+    "android": {
+      "package": "com.example.solara",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F1EA"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
